@@ -1,0 +1,97 @@
+:root {
+    --pine: #283618;
+    --olive: #606c38;
+    --cornsilk: #FEFAE0;
+    --earthyellow: #FFB400;
+}
+
+body {
+    background-color: var(--cornsilk);
+}
+
+h1 {
+    color: var(--pine);
+    text-align: center;
+    font-family: 'Lovelo', sans-serif;
+    padding-top: clamp(10px, 16%, 150px);
+    font-size: clamp(14px, 7.4vw, 70px);
+}
+
+input {
+    border: 5px solid var(--pine);
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #FEFAE0;
+    width: 70%;
+    max-width: 600px;
+    height: 8vw;
+    max-height: 50px;
+    font-family: 'Marcellus', serif;
+    text-align: center;
+    font-size: clamp(5px, 5vw, 50px);
+}
+
+button {
+    background: var(--earthyellow);
+    border: 1px solid var(--earthyellow);
+    border-radius: 7px;
+    color: var(--pine);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vw auto;
+    height: 1.9em;
+    font-family: 'Marcellus', serif;
+    font-size: clamp(15px, 3vw, 20px);
+    width: 13vw;
+    max-width: 90px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+
+}
+
+button:hover {
+    background: linear-gradient(#DDA15E, #FFB400);
+}
+
+.explanation {
+    border: 5px solid var(--olive);
+    border-radius: 10px;
+    background-color: var(--olive);
+    color: white;
+    text-align: center;
+    font-family: 'Marcellus', serif;
+    font-size: clamp(5px, 4vw, 25px);
+    width: 70%;
+    max-width: 600px;
+    display: flex;
+    margin: auto;
+    margin-top: 3vh;
+    padding: 9px;
+}
+
+.hidden {
+    display: none;
+}
+
+#result {
+    color: var(--pine);
+    border: 6px solid var(--pine);
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    max-width: 600px;
+    max-height: 50px;
+    height: 1.9em;
+    margin: 10vh auto;
+    padding: auto;
+    font-family: 'Marcellus', serif;
+    font-size: clamp(5px, 4vw, 25px);
+}
